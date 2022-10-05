@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -93,8 +92,5 @@ func Round(val float64, precision int) float64 {
 }
 
 func main() {
-
-	fmt.Println(float64(1) / float64(2))
-	fmt.Println(Round(1/2, 2))
-	fmt.Println("hello")
+	t1()
 }
